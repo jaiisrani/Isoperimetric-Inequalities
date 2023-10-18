@@ -1,4 +1,4 @@
-## Exploring the conjunction of isoperimetric inequalities with optimization algorithms for solving challenging isoperimetric tasks in planar space, graphs, and swarm exploration strategy development.
+## Exploring the conjunction of isoperimetric inequalities and optimization algorithms for solving challenging isoperimetric tasks in planar space, graphs, and swarm exploration strategy development.
 
 # The Greedy Algorithm
 
