@@ -11,7 +11,7 @@ In this example, we'll distribute points in a 2D plane into clusters while minim
 
 (Here, perimeter of a cluster = sum of euclidean distances between all possible pair of points in that cluster)
 
-Refer this code for the implementation of this algorithm on an example problem.
+Refer [this](https://github.com/jaiisrani/Isoperimetric-Optimization-Algorithms/blob/main/Isoperimetric_Inequalities.ipynb) code for the implementation of this algorithm on an example problem.
 
 # The Cheeger Algorithm
 
@@ -26,9 +26,9 @@ In the context of geometric analysis and manifolds, Cheeger's inequality is a fu
 Problem: Given a connected undirected graph and a budget constraint, find a subset of nodes that maximizes the Cheeger constant (minimizes the edge cut) while ensuring that the number of nodes in the subset does not exceed the budget.
 Solution in Python:
 To solve this problem, you can use the NetworkX library to work with graphs and scipy to perform numerical optimizations. First, you'll need to create a graph and define the objective function for optimization, which is to maximize the Cheeger constant.
-Refer this code for the implementation of this algorithm on the example problem.
+Refer [this](https://github.com/jaiisrani/Isoperimetric-Optimization-Algorithms/blob/main/Isoperimetric_Inequalities.ipynb) code for the implementation of this algorithm on the example problem.
 
-This code defines an objective function that computes the Cheeger constant for a given subset of nodes, and then uses scipy to maximize this objective function within the budget constraint. The result is the optimal subset of nodes that maximizes the Cheeger constant while satisfying the budget constraint
+The code defines an objective function that computes the Cheeger constant for a given subset of nodes, and then uses scipy to maximize this objective function within the budget constraint. The result is the optimal subset of nodes that maximizes the Cheeger constant while satisfying the budget constraint
 
 Some concepts from Graph Theory have been used in structuring the above problem. Let us take a short detour and go over these concepts. 
 
@@ -66,7 +66,7 @@ Minimum Edge Cut: A minimum edge cut, often denoted as "λ(G)," is the smallest 
 
 # Swarm exploration strategies
 
-This example generates random points to simulate a swarm in a 2D plane and then uses a greedy algorithm to find an optimal subset of points that minimizes the boundary while covering a significant exploration area. The selected subset of points is highlighted in red in the plot.
+[This](https://github.com/jaiisrani/Isoperimetric-Optimization-Algorithms/blob/main/Isoperimetric_Inequalities.ipynb) example generates random points to simulate a swarm in a 2D plane and then uses a greedy algorithm to find an optimal subset of points that minimizes the boundary while covering a significant exploration area. The selected subset of points is highlighted in red in the plot.
 
 Code can be found here.
 
