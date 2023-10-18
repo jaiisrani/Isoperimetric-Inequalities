@@ -64,7 +64,7 @@ Key points about edge cuts in graphs:
 Definition: An edge cut is defined as a set of edges whose removal increases the number of connected components in the graph. In other words, it disconnects the graph.
 Minimum Edge Cut: A minimum edge cut, often denoted as "λ(G)," is the smallest possible set of edges that, when removed, disconnects the graph into two or more components. Finding the minimum edge cut is a common problem in network design and optimization.
 
-# Swarm exploration strategies
+# Swarm exploration strategy
 
 [This](https://github.com/jaiisrani/Isoperimetric-Optimization-Algorithms/blob/main/Isoperimetric_Inequalities.ipynb) example generates random points to simulate a swarm in a 2D plane and then uses a greedy algorithm to find an optimal subset of points that minimizes the boundary while covering a significant exploration area. The selected subset of points is highlighted in red in the plot.
 
